@@ -1,0 +1,6 @@
+### Get public key
+GET http://localhost:8080/.well-known/jwks.json?kid=somekid
+
+###
+POST http://localhost:8080/auth
+###
